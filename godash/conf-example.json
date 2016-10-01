@@ -1,0 +1,10 @@
+{
+    "nic": "en0",
+    "buttons": [
+        { 
+            "name": "Biona button",
+            "mac":"ac:xx:xx:xx:xx:xx",
+            "url":"https://maker.ifttt.com/trigger/biona_pressed/with/key/xxxxxxxxxxxxxxx"
+        }
+    ]
+}

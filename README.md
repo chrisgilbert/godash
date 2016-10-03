@@ -11,7 +11,7 @@ You should be able to compile it like this:
 ```
 git clone https://github.com/chrisgilbert/godash/
 cd godash/godash
-go get 
+go get github.com/google/gopacket
 go build
 ```
 

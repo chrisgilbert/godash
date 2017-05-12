@@ -1,10 +1,22 @@
 {
-    "nic": "en0",
-    "buttons": [
-        { 
-            "name": "Biona button",
-            "mac":"ac:xx:xx:xx:xx:xx",
-            "url":"https://maker.ifttt.com/trigger/biona_pressed/with/key/xxxxxxxxxxxxxxx"
-        }
-    ]
+  "nic": "en0",
+  "buttons": [
+    {
+        "name": "Biona button",
+        "mac":"ac:xx:xx:xx:xx:xx",
+        "url":"https://maker.ifttt.com/trigger/biona_pressed/with/key/xxxxxxxxxxxxxxx"
+    },
+    {
+        "name": "Mountain Dew",
+        "mac":"b4:7c:9c:5b:7d:28",
+        "url":"http://10.1.10.3:8176/actions/Mountain%20Dew&_method=execute",
+        "username":"indigo:password"
+    },
+    {
+        "name": "Pepsi",
+        "mac":"b4:7c:9c:5b:7d:29",
+        "url":"http://10.1.10.3:8176/actions/Pepsi&_method=execute",
+        "username":"indigo:password"
+    }
+  ]
 }
